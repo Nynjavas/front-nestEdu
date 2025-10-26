@@ -1,0 +1,32 @@
+@import url(/src/styles/global.css);
+
+input {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 10px;
+    background-color: blue;
+}
+
+a {
+    color: white;
+}
+
+.user{
+    display: flex;
+    justify-content: space-around;
+}
+
+#date {
+    align-items:flex-end;
+    display: flex;
+    justify-content: center;
+}
