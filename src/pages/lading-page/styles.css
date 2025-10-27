@@ -28,5 +28,7 @@ header {
 }
 
 .logo > h2 > span {
-    color: var(--blue-linear);
+    background: var(--blue-linear); /* Aplica o gradiente */
+    -webkit-background-clip: text; /* Recorta o gradiente no texto */
+    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
 }
