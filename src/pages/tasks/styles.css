@@ -1,0 +1,32 @@
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between    
+}
+
+.urgente {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+#squad {
+   width: 80px;
+}
+
+.tarefa {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+#feitos {
+    width: 100px;
+}
