@@ -1,22 +1,17 @@
 /* EXEMPLO DE CODIGO */
 
 :root {
-  /* Paleta de cores */
-  /* --primary-color: #007bff; Cor principal usada em botões, links, etc. */
-  /* --secondary-color: #6c757d; Cor secundária para textos ou fundos */
-  /* --background-color: #f9f9f9; Cor de fundo padrão */
-  /* --text-color: #333; Cor padrão do texto */
+  /* EXEMPLO DE CODIGO */
 
-  /* Fontes */
-  /* --font-family: 'Arial', sans-serif; Fonte padrão */
-  /* --font-size-base: 16px; Tamanho base do texto */
+:root {
+  /* Gradientes */
+  --blue-linear: linear-gradient(90deg, #3A8EF6 0%, #6F3AFA 100%);
 
-  /* Espaçamentos */
-  /* --spacing-small: 8px; Espaçamento pequeno */
-  /* --spacing-medium: 16px; Espaçamento médio */
-  /* --spacing-large: 24px; Espaçamento grande */
-
-  /* Outros */
-  /* --border-radius: 4px; Define bordas arredondadas */
-  /* --z-index-modal: 1050; Define o nível de sobreposição para modais */
+  /* Cores */
+  --gray: #6C87AE;
+  --gray-dark: #031432;
+  --black: #000000;
+  --white: #FFFFFF;
+  --blue-dark: #432C99;
+}
 }
