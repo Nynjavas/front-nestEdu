@@ -1,46 +1,143 @@
 @import url(../../styles/global.css);
 
+/* Botão geral */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  background: var(--blue-linear);
+  color: var(--white);
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+  width: fit-content;
+}
+
 /* Header */
 header {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-} 
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
 
 .logo > img {
-    width: 68px;
-    height: 62px;
+  width: 68px;
+  height: 62px;
 }
 
 .logo > h2 {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .logo > h2 > span {
-    background: var(--blue-linear); /* Aplica o gradiente */
-    -webkit-background-clip: text; /* Recorta o gradiente no texto */
-    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+  background: var(--blue-linear); /* Aplica o gradiente */
+  -webkit-background-clip: text; /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
 }
 
- nav {
-    display: flex;
-    gap: 40px; 
-    flex-direction: row;
+nav {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  color: var(--gray);
 }
 
-nav a.active {
-    background: var(--blue-linear); /* Aplica o gradiente */
-    -webkit-background-clip: text; /* Recorta o gradiente no texto */
-    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
-    font-weight: bold;
+nav a[href="#inicio"] {
+  background: var(--blue-linear); /* Aplica o gradiente */
+  -webkit-background-clip: text; /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
 }
+
+/* Hero */
+section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 136px;
+  gap: 100px;
+}
+
+section.hero .label {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 40%;
+}
+
+section.hero .hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+section.hero .hero-title h1 {
+  font-size: 60px;
+}
+
+section.hero .hero-title h1 span {
+  background: var(--blue-linear); /* Aplica o gradiente */
+  -webkit-background-clip: text; /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+}
+
+section.hero .hero-title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+section.hero button {
+  font-size: 32px;
+}
+
+section.hero img {
+  width: 400px;
+  height: auto;
+}
+
+/* About */
+section.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 135px;
+  padding: 22px 131px;
+  background-color: #E2EDFF;
+}
+
+section.about .about-text {
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+section.about .about-text h2 {
+  font-weight: 600;
+}
+
+section.about .about-text h3 {
+  font-weight: 400;
+  color: var(--gray);
+}
+
+section.about .about-text h3 span {
+  font-weight: 700;
+}
+
+/* Mission */
