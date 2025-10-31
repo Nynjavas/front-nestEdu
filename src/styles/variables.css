@@ -19,4 +19,51 @@
   /* Outros */
   /* --border-radius: 4px; Define bordas arredondadas */
   /* --z-index-modal: 1050; Define o nível de sobreposição para modais */
+
+  /* Color styles */
+--padrões---black: #000000;
+--padrões---white: #FFFFFF;
+
+
+ /* Tons de azul*/
+--tons-de-azul--x1: #160E32;
+--tons-de-azul--x2: #2C1D65;
+--tons-de-azul--x3: #432C99;
+--tons-de-azul--x4: #593BCC;
+--tons-de-azul--x5: #704AFF;
+--tons-de-azul--x6: #8C6EFF;
+--tons-de-azul--x7: #A992FF;
+--tons-de-azul--x8: #C5B6FF;
+--tons-de-azul--x9: #E2DAFF;
+  /* Tons de roxo */
+--tons-de-roxo--x1: #1D1230;
+--tons-de-roxo--x2: #3B2560;
+--tons-de-roxo--x3: #583991;
+--tons-de-roxo--x4: #764CC1;
+--tons-de-roxo--x5: #945FF2;
+--tons-de-roxo--x6: #A97FF4;
+--tons-de-roxo--x7: #BE9FF7;
+--tons-de-roxo--x8: #D4BFF9;
+--tons-de-roxo--x9: #E9DFFC;
+  /* Tons de ciano */
+--tons-de-ciano--x1: #082730;
+--tons-de-ciano--x2: #114F61;
+--tons-de-ciano--x3: #197891;
+--tons-de-ciano--x4: #22A0C2;
+--tons-de-ciano--x5: #2BC8F3;
+--tons-de-ciano--x6: #55D3F5;
+--tons-de-ciano--x7: #7FDEF7;
+--tons-de-ciano--x8: #AAE9FA;
+--tons-de-ciano--x9: #D4F4FC;
+  /* Tons de cinza */
+--tons-de-cinza--x1: #2B2B2B;
+--tons-de-cinza--x2: #565656;
+--tons-de-cinza--x3: #828282;
+--tons-de-cinza--x4: #ADADAD;
+--tons-de-cinza--x5: #D9D9D9;
+--tons-de-cinza--x6: #E0E0E0;
+--tons-de-cinza--x7: #E8E8E8;
+--tons-de-cinza--x8: #EFEFEF;
+--tons-de-cinza--x9: #F7F7F7;
+
 }
