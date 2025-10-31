@@ -3,10 +3,9 @@
 /* Header */
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    gap: 20%;
     font-size: 16px;
 }
 
@@ -31,4 +30,17 @@ header {
     background: var(--blue-linear); /* Aplica o gradiente */
     -webkit-background-clip: text; /* Recorta o gradiente no texto */
     -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+}
+
+ nav {
+    display: flex;
+    gap: 40px; 
+    flex-direction: row;
+}
+
+nav a.active {
+    background: var(--blue-linear); /* Aplica o gradiente */
+    -webkit-background-clip: text; /* Recorta o gradiente no texto */
+    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+    font-weight: bold;
 }
