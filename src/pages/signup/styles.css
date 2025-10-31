@@ -1,34 +1,67 @@
-@import url();
+@import url(/src/styles/global.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 88px 21px 56px;
+}
 
 input {
     border: 1px solid black;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 
 fieldset {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
-button {
+.button {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+button#conta {
     border-radius: 10px;
-    background-color: blue;
+    background-color: #704AFF;
+    width: 156px;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
-.user{
+.user {
     display: flex;
     justify-content: space-around;
 }
 
-#date {
-    align-items:flex-end;
-    display: flex;
-    justify-content: center;
+fieldset input {
+    width: 326px;
 }
 
+fieldset.name {
+    gap: 22px;
+    display: flex;
+    flex-direction: row;
+}
 
+input#fname, input#sname {
+    width: 152px;
+}
+
+a#cconta {
+    color: white;
+}
+
+a#jconta {
+    text-decoration: underline black;
+}
+
+button#google {
+    border-radius: 10px;
+    border: 1px solid var(--Tons-de-azul-x3, #432C99);
+    display: flex;
+}
