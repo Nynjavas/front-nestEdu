@@ -95,9 +95,15 @@ section{
     margin-top: 12px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
 }
 
 .class-box{
+    flex-shrink: 0;
     width: 336px;
     height: 140px;
     display: flex;
@@ -143,7 +149,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    bottom: -5px;
+    bottom: -10px;
     position: fixed;
     button{
         background-color: white;
