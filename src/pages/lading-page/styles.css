@@ -31,20 +31,23 @@ header {
   align-items: center;
 }
 
-.logo > img {
+.logo>img {
   width: 68px;
   height: 62px;
 }
 
-.logo > h2 {
+.logo>h2 {
   font-size: 32px;
   font-weight: 600;
 }
 
-.logo > h2 > span {
-  background: var(--blue-linear); /* Aplica o gradiente */
-  -webkit-background-clip: text; /* Recorta o gradiente no texto */
-  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+.logo>h2>span {
+  background: var(--blue-linear);
+  /* Aplica o gradiente */
+  -webkit-background-clip: text;
+  /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent;
+  /* Torna o preenchimento do texto transparente */
 }
 
 nav {
@@ -55,9 +58,12 @@ nav {
 }
 
 nav a[href="#inicio"] {
-  background: var(--blue-linear); /* Aplica o gradiente */
-  -webkit-background-clip: text; /* Recorta o gradiente no texto */
-  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+  background: var(--blue-linear);
+  /* Aplica o gradiente */
+  -webkit-background-clip: text;
+  /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent;
+  /* Torna o preenchimento do texto transparente */
 }
 
 /* Hero */
@@ -87,9 +93,12 @@ section.hero .hero-title h1 {
 }
 
 section.hero .hero-title h1 span {
-  background: var(--blue-linear); /* Aplica o gradiente */
-  -webkit-background-clip: text; /* Recorta o gradiente no texto */
-  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+  background: var(--blue-linear);
+  /* Aplica o gradiente */
+  -webkit-background-clip: text;
+  /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent;
+  /* Torna o preenchimento do texto transparente */
 }
 
 section.hero .hero-title h2 {
@@ -141,3 +150,75 @@ section.about .about-text h3 span {
 }
 
 /* Mission */
+section.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 108px;
+  padding: 0 165px;
+  gap: 64px;
+}
+
+section.mission .mission-title {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+section.mission .mission-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+section.mission .card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 36px;
+  
+}
+
+section.mission .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  /* Adiciona sombra */
+  border-radius: 24px;
+  gap: 24px;
+}
+
+section.mission .card button {
+  width: 100%;
+}
+
+section.mission .card .card-icon {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+section.mission .card .card-icon .img {
+  width: 118px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+}
+
+section.mission .card .card-info {
+  gap: 12px;
+}
+
+section.mission .card .card-info h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+section.mission .card .card-info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray);
+}
