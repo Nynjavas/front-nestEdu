@@ -251,7 +251,8 @@ section.functions .card-wrapper {
   display: flex;
   gap: 48.5px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 section.functions .card-wrapper .card {
@@ -280,3 +281,108 @@ section.functions .card-wrapper .card p {
   font-size: 14px;
   color: var(--gray);
 }
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  background-color: var(--blue-dark);
+}
+
+footer .footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footer-wrapper .footer-content {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 66px;
+  align-items: center;
+}
+
+footer .footer-wrapper .footer-content .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 24.23%;
+  gap: 16px;
+}
+
+footer .footer-wrapper .footer-content .description p {
+  font-style: italic;
+}
+
+footer .footer-wrapper .footer-content .description .img-wrapper {
+  display: flex;
+}
+
+footer .footer-wrapper .footer-content .description .img-wrapper img {
+  width: 32px;
+  height: auto;
+}
+
+footer .footer-wrapper .footer-content .company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 13.40%; */
+  gap: 16px;
+}
+
+footer .footer-wrapper .footer-content .present {
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 13.05%; */
+  gap: 16px;
+}
+
+footer .footer-wrapper .footer-content .contact {
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 18.54%; */
+  gap: 16px;
+}
+
+footer .footer-wrapper .footer-line {
+  width: 100%;
+  border-bottom: 2px solid var(--white); 
+  margin: 24px 0;               
+}
+
+footer .footer-wrapper p {
+  color: var(--white);
+  font-weight: 400;
+}
+
+footer .footer-wrapper a {
+  color: var(--white);
+}
+
+footer .footer-wrapper h4 {
+  color: var(--white);
+}
+
+footer .footer-wrapper h3 {
+  color: var(--white);
+  font-size: 32px;
+}
+
+footer .footer-wrapper h3 span {
+    background: var(--blue-linear);
+  /* Aplica o gradiente */
+  -webkit-background-clip: text;
+  /* Recorta o gradiente no texto */
+  -webkit-text-fill-color: transparent;
+  /* Torna o preenchimento do texto transparente */
+}
+
+
