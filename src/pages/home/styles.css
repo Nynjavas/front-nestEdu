@@ -1,0 +1,73 @@
+@import url(./../../styles/global.css);
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 42px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    img{
+    height: 42px;
+    width: 42px;
+}
+}
+h1{
+    padding: 10px;
+    font-size: 25px;
+    width: 249px;
+}
+.box-pass{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+
+    border: solid black 1px;
+    gap: 32px;
+
+}
+
+
+
+.box{
+    flex-shrink: 0;
+    background-color: #3580FF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+    width: 260px;
+    
+    color: white;
+
+    h2{
+        font-size: 18px;
+        
+    }
+    p{
+        font-size: 12px;
+        color: #C5DAFD;
+    }
+    img{
+        height: 44px;
+        width: 44px;
+    }
+    .progress-bar{
+        height: 5px;
+        width: 114px;
+        border-radius: 3px;
+        background-color: #3580FF;
+    }
+    .progress-bar-complete{
+        height: 5px;
+        width: 63px;
+        border-radius: 3px;
+        background-color: white;
+
+    }
+}
