@@ -1,7 +1,9 @@
 @import url(../../styles/global.css);
-body{
-    padding: 16px;
+
+.wrapper-page {
+    padding: 16pxgit ;
 }
+
 header{
     gap: 10px;
 }
