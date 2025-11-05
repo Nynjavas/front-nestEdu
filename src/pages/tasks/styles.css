@@ -1,4 +1,4 @@
-/* @import url(../../styles/global.css); */
+@import url(../../styles/global.css); */
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
@@ -7,71 +7,97 @@ body {
 /* header */
 
 header {
+    font-size: x-large;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between    
+    
+}
+
+.pesquisa {
+    margin-top: 40px;
+    border: 1px solid purple;
+    border-radius: 1px;
+    width: 100%;
+}
+
+#voltar {
+    margin-top: 10px;   
 }
 
 #calendario {
+    margin-top: 10px;
     width: 50px;
 }
 
 .urgente {
-    font-size: x-small;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: medium;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
-
 }
 
 #squad {
-   width: 8px;
+   padding-top: 3px;
+   width: 27px;
 
 }
 
 
 .tarefa {
-    font-size: small;
+   
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: medium;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+    justify-content: flex-start;
+    border: 1px solid purple;
+    width: 100%;
+    margin-right: 50px;
+    border-radius: 1px;
+    justify-content: space-between;
 
 }
 
 #feitos {
-    width: 70px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 50px;
 }
 
-.tarefa {
-    font-size: smaller;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    justify-content: space-between;
-}
+
 
 .materia{
+    font-size: small;
     display: flex;
     justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .progresso{
-     display: flex;
+   
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     justify-content: space-around;
+    border: 1px;
 }
 
 #pombos{
-    width: 5S0px;
+    padding-top: 10px;
+    width: 60px;
     
 }
 
 #progresso{
-    width: 200px;
+     padding-top: 30px;
+    width: 250px;
 }
