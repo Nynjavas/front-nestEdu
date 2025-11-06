@@ -4,6 +4,7 @@
     font-size: 100%;
     border: 0px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 a {
