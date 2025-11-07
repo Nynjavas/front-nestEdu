@@ -1,1 +1,108 @@
+@import url(/src/styles/global.css);
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 88px 21px 56px;
+    background-image: url("../../assets/images/Fundos.png");
+  
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+::placeholder {
+    opacity: 0.6;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset.user {
+    margin-bottom: 55px;
+}
+
+.wrapper-input {
+    display: flex;
+    gap: 23px;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 15px;
+    align-items: center;
+    margin-top: 230px;
+}
+
+button#conta {
+    border-radius: 15px;
+    background-color: #704AFF;
+    width: 156px;
+    height: 46px;
+}
+
+a {
+    color: black;
+}
+
+.user {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset input {
+    width: 326px;
+}
+
+fieldset.name {
+    gap: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+input#fname,
+input#sname {
+    width: 152px;
+}
+
+a#cconta {
+    color: white;
+}
+
+a#jconta {
+    text-decoration: none;
+}
+
+button#google {
+    border-radius: 10px;
+    border: 1px solid var(--Tons-de-azul-x3, #432C99);
+    display: flex;
+    width: 200px;
+    height: 32px;
+    font-size: 15px;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+fieldset.email,
+fieldset.password,
+fieldset.user {
+    gap: 15px;
+    opacity: 0.5;
+}
+
+.checkbox {
+    margin-top: 20px;
+}
