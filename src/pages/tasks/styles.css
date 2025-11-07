@@ -1,0 +1,103 @@
+@import url(../../styles/global.css); */
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+
+header {
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between    
+    
+}
+
+.pesquisa {
+    margin-top: 40px;
+    border: 1px solid purple;
+    border-radius: 1px;
+    width: 100%;
+}
+
+#voltar {
+    margin-top: 10px;   
+}
+
+#calendario {
+    margin-top: 10px;
+    width: 50px;
+}
+
+.urgente {
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#squad {
+   padding-top: 3px;
+   width: 27px;
+
+}
+
+
+.tarefa {
+   
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-content: flex-start;
+    border: 1px solid purple;
+    width: 100%;
+    margin-right: 50px;
+    border-radius: 1px;
+    justify-content: space-between;
+
+}
+
+#feitos {
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 50px;
+}
+
+
+
+.materia{
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.progresso{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-content: space-around;
+    border: 1px;
+}
+
+#pombos{
+    padding-top: 10px;
+    width: 60px;
+    
+}
+
+#progresso{
+     padding-top: 30px;
+    width: 250px;
+}
