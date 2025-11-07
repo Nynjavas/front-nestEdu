@@ -1,0 +1,186 @@
+@import url(./../../styles/global.css);
+
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 42px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+
+    img {
+        height: 42px;
+        width: 42px;
+    }
+}
+
+h1 {
+    padding: 10px;
+    font-size: 25px;
+    width: 249px;
+}
+
+.box-pass {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    
+    gap: 32px;
+
+}
+
+
+
+.box {
+    flex-shrink: 0;
+    background-color: #3580FF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+    height: 150px;
+    width: 260px;
+
+    color: white;
+
+    
+    
+    img {
+        height: 44px;
+        width: 44px;
+    }
+}
+
+h2 {
+    margin: 12px;
+    font-size: 18px;
+
+}
+p {
+    margin: 12px;
+    font-size: 12px;
+    color: #C5DAFD;
+}
+.progress-bar {
+    height: 5px;
+    width: 114px;
+    border-radius: 3px;
+    background-color: #3580FF;
+}
+
+.progress-bar-complete {
+    height: 5px;
+    width: 63px;
+    border-radius: 3px;
+    background-color: white;
+
+}
+.progress {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.box-content{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+.progress-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.progress-text{
+display: flex;
+    justify-content: space-around;
+    width: auto;
+
+}
+
+.pfp-group {
+    display: flex;
+}
+
+.pfp-group img {
+    margin-right: -23px;
+}
+
+
+
+.in-progress{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    overflow: scroll;
+    border: solid #002055 1px;
+    padding-bottom: 85px;
+}
+.in-progress-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.in-progress-box{
+    padding: 8px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: solid #E9F1FF 1px;
+    border-radius: 16px;
+    img{
+        width: 44px;
+        height: 44px;
+    }
+}
+.box-progress-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+p{
+    color: #848A94;
+}
+h3{
+    font-size: 14px;
+    font-style: normal;
+    color: #002055;
+}
+
+    
+}
+
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: -5px;
+    position: fixed;
+    button{
+        background-color: white;
+    }
+}
