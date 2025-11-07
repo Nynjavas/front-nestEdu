@@ -1,0 +1,23 @@
+.cabecario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#calendario {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarefa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#data {
+    width: 80px;
+    height: 40px;
+}
