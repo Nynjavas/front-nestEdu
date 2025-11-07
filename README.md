@@ -1,45 +1,71 @@
-# Nest.Education – Front-End
+# Nest Education Frontend
 
-Este repositório contém o código front-end do projeto **Nest.Education**, uma plataforma educacional voltada para organização acadêmica e acompanhamento de desempenho estudantil.
+Este é o repositório do frontend do projeto **Nest Education**, uma plataforma acadêmica inteligente, acessível e centrada no estudante.
 
-## 🧩 Telas incluídas
-
-- **Landing Page** (`src/index.html`)
-- **Login** (`src/pages/login.html`)
-- **Cadastro** (`src/pages/signup.html`)
-- **Página Inicial (Dashboard)** (`src/pages/home.html`)
-- **Perfil** (`src/pages/profile.html`)
-- **Tarefas** (`src/pages/tasks.html`)
-- **Calendário** (`src/pages/calender.html`)
-- **Chat** (`src/pages/chat.html`)
-
-## 🛠️ Tecnologias utilizadas
-
-- HTML5  
-- CSS3  
-- Design responsivo para desktop e mobile
-
-## 📁 Estrutura do projeto
+## 📁 Estrutura do Projeto
 
 ```
 src/
-  index.html                # Landing Page
-  pages/
-    login.html              # Tela de Login
-    signup.html             # Tela de Cadastro
-    home.html               # Dashboard da Plataforma
-    profile.html            # Perfil do Usuário
-    tasks.html              # Gerenciamento de Tarefas
-    calender.html           # Calendário
-    chat.html               # Chat
-  assets/
-    css/
-      style.css             # Estilos principais
-      global.css            # Estilos globais
-    images/
-      .gitkeep              # Placeholder para imagens
+  assets/         # Imagens e ícones usados no projeto
+  lading-page/    # Landing page principal (index.html, styles.css)
+  pages/          # Páginas internas da plataforma (calendar, chat, home, onboarding, profile, signin, signup, tasks)
+  styles/         # Estilos globais, variáveis e reset
 ```
 
-Para visualizar:
-- Abra `src/index.html` para a landing page.
-- As demais páginas estão em `src/pages/`.
+## 🚀 Como rodar o projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repo.git
+   cd seu-repo
+   ```
+
+2. **Abra no VS Code ou outro editor de sua preferência.**
+
+3. **Abra o arquivo desejado no navegador:**
+   - Para visualizar a landing page:  
+     Abra `src/lading-page/index.html` no seu navegador.
+   - Para visualizar outras páginas:  
+     Abra o arquivo HTML correspondente em `src/pages/NOME_DA_PAGINA/index.html`.
+
+## 🎨 Tecnologias e Ferramentas
+
+- **HTML5**
+- **CSS3** (com uso de variáveis, Flexbox e efeitos modernos)
+- **Estrutura modular de pastas**
+- **Sem frameworks JS** (projeto focado em HTML/CSS puro)
+
+## ✨ Funcionalidades
+
+- Landing page moderna e responsiva
+- Páginas internas separadas por contexto (login, cadastro, chat, tarefas, etc)
+- Estilos globais e reset para padronização visual
+- Efeitos de hover e gradientes para melhor experiência do usuário
+
+## 🖼️ Imagens e Assets
+
+Todos os assets estão na pasta `src/assets/`.  
+Imagens e ícones podem ser reutilizados em qualquer página.
+
+## 📦 Organização dos estilos
+
+- `src/styles/global.css` — Estilos globais para todo o projeto
+- `src/styles/reset.css` — Reset de estilos para cross-browser
+- `src/styles/variables.css` — Variáveis de cor, fontes e gradientes
+- Cada página tem seu próprio `styles.css` para customizações locais
+
+## 📝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch: `git checkout -b feat/sua-feature`
+3. Commit suas alterações: `git commit -m 'feat: minha nova feature'`
+4. Push para sua branch: `git push origin feat/sua-feature`
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+Sinta-se à vontade para sugerir melhorias ou reportar problemas!
