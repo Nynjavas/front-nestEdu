@@ -78,6 +78,25 @@ header {
   transition: color 0.5s;
 }
 
+header > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  background: var(--blue-linear);
+  color: var(--white);
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+  width: fit-content;
+}
+header > a:hover {
+  background: linear-gradient(90deg, #6F3AFA 0%, #3A8EF6 100%);
+  box-shadow: 0 4px 16px rgba(58, 142, 246, 0.2);
+  transform: translateY(-2px) scale(1.04);
+  transition: all 0.5s;
+}
+
 /* Hero */
 section.hero {
   display: flex;
@@ -119,8 +138,27 @@ section.hero .hero-title h2 {
   color: var(--gray);
 }
 
-section.hero button {
+section.hero a {
   font-size: 32px;
+}
+
+section.hero a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  background: var(--blue-linear);
+  color: var(--white);
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+  width: fit-content;
+}
+section.hero a:hover {
+  background: linear-gradient(90deg, #6F3AFA 0%, #3A8EF6 100%);
+  box-shadow: 0 4px 16px rgba(58, 142, 246, 0.2);
+  transform: translateY(-2px) scale(1.04);
+  transition: all 0.5s;
 }
 
 section.hero img {
