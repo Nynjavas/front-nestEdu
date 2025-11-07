@@ -13,6 +13,13 @@ button {
   font-weight: 600;
   width: fit-content;
 }
+button:hover {
+  background: linear-gradient(90deg, #6F3AFA 0%, #3A8EF6 100%);
+  box-shadow: 0 4px 16px rgba(58, 142, 246, 0.2);
+  transform: translateY(-2px) scale(1.04);
+  transition: all 0.5s;
+}
+
 
 /* Header */
 header {
@@ -64,6 +71,11 @@ nav a[href="#inicio"] {
   /* Recorta o gradiente no texto */
   -webkit-text-fill-color: transparent;
   /* Torna o preenchimento do texto transparente */
+}
+nav a:hover {
+  color: #3A8EF6;
+  text-decoration: underline;
+  transition: color 0.5s;
 }
 
 /* Hero */
@@ -189,6 +201,11 @@ section.mission .card {
   border-radius: 24px;
   gap: 24px;
 }
+section.mission .card:hover {
+  box-shadow: 0 8px 24px rgba(58, 142, 246, 0.15);
+  transform: translateY(-6px) scale(1.03);
+  transition: all 0.5s;
+}
 
 section.mission .card button {
   width: 100%;
@@ -266,6 +283,11 @@ section.functions .card-wrapper .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   gap: 12px;
 }
+section.functions .card-wrapper .card:hover {
+  box-shadow: 0 8px 24px rgba(58, 142, 246, 0.15);
+  transform: translateY(-6px) scale(1.03);
+  transition: all 0.5s;
+}
 
 section.functions .card-wrapper .card img {
   height: 57px;
@@ -321,11 +343,17 @@ footer .footer-wrapper .footer-content .description p {
 
 footer .footer-wrapper .footer-content .description .img-wrapper {
   display: flex;
+  gap: 10px;
 }
 
 footer .footer-wrapper .footer-content .description .img-wrapper img {
   width: 32px;
   height: auto;
+}
+footer .footer-wrapper .footer-content .description .img-wrapper img:hover {
+  filter: brightness(1.2) drop-shadow(0 2px 8px #3A8EF6);
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 footer .footer-wrapper .footer-content .company-info {
