@@ -57,14 +57,14 @@ header {
   /* Torna o preenchimento do texto transparente */
 }
 
-nav {
+.nav {
   display: flex;
   gap: 40px;
   flex-direction: row;
   color: var(--gray);
 }
 
-nav a[href="#inicio"] {
+.nav a[href="#inicio"] {
   background: var(--blue-linear);
   /* Aplica o gradiente */
   -webkit-background-clip: text;
@@ -72,7 +72,7 @@ nav a[href="#inicio"] {
   -webkit-text-fill-color: transparent;
   /* Torna o preenchimento do texto transparente */
 }
-nav a:hover {
+.nav a:hover {
   color: #3A8EF6;
   text-decoration: underline;
   transition: color 0.5s;
